@@ -1,0 +1,33 @@
+{
+  "name": "CatPhotos",
+  "subtitle": "相册备份到 NAS / SMB / WebDAV",
+  "description": "CatPhotos 侧载分发源（国内加速）。IPA 未签名，需在 SideStore 或 LiveContainer 中本地重签安装。",
+  "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Wszl/cat-photos-dist/main/icon.png",
+  "website": "https://github.com/Wszl/cat-photos",
+  "tintColor": "#265B6B",
+  "featuredApps": [
+    "com.catphotos.app"
+  ],
+  "apps": [
+    {
+      "name": "CatPhotos",
+      "bundleIdentifier": "com.catphotos.app",
+      "developerName": "Wszl",
+      "subtitle": "相册同步与备份",
+      "localizedDescription": "将系统相册中的照片、视频与实况照片同步到你配置的 SMB / WebDAV / FTP 等备份目标。IPA 未签名，请用 SideStore 或 LiveContainer 本地重签后安装。",
+      "iconURL": "https://gh-proxy.com/https://raw.githubusercontent.com/Wszl/cat-photos-dist/main/icon.png",
+      "tintColor": "#265B6B",
+      "category": "photo-video",
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "需要访问相册以浏览，并同步照片、视频和实况照片到你配置的备份目标。",
+          "NSPhotoLibraryAddUsageDescription": "需要将远端下载的照片写入系统相册。",
+          "NSLocalNetworkUsageDescription": "需要访问局域网以发现并连接 SMB / NAS 等同步目标。"
+        }
+      }
+    }
+  ],
+  "news": []
+}
