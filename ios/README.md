@@ -8,7 +8,6 @@ CatPhotos 的 SideStore / LiveContainer / AltStore Classic **国内加速**分�
 - `icon.png` — 源与 App 图标
 - GitHub Releases 上的未签名 `CatPhotos.ipa`
 
-应用源码在 [Wszl/cat-photos](https://github.com/Wszl/cat-photos)。IPA 由 Codemagic 构建后自动推送到本仓。
 
 ## 添加 Source
 
@@ -35,7 +34,3 @@ https://gh-proxy.com/https://raw.githubusercontent.com/Wszl/cat-photos-dist/main
 
 的前缀换成可用镜像（或暂时去掉前缀直连 GitHub），再提交本仓即可。发布脚本里的常量 `PROXY_PREFIX` 也需同步修改。
 
-## 安全提示
-
-- 不要把 Apple ID 密码或签名证书提交到本仓
-- 经第三方代理下载的 IPA，建议与 Release 页面文件大小核对
